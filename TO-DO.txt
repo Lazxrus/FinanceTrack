@@ -1,0 +1,24 @@
+Learn Flask, APIs and SQL
+    Flask: 
+    API:
+    SQL:
+
+Learn how to use MongoDB
+
+Learn Python for backend
+    Data-handling:
+    Automation:
+
+Improve GitHub page with a better ReadME.
+    Add images
+    Add a portfolio project
+
+Create a portfolio.
+    HTML
+    CSS/Bootstrap
+    JavaScript
+    Python
+    SQL
+    JQuery
+    Angular
+    Maybe Rust
