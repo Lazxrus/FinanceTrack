@@ -1,6 +1,9 @@
 Learn Flask, APIs and SQL
-    Flask: 
-    API:
+    Flask: web framework, HTTP request handler, can use partially as frontend content
+    Flask - SQLAlchemy: Object Relational Mapper, aids interaction with an SQL db
+    Flask - Migrate: Aids database migration
+    Flask - RESTful: Provides tool for building APIs quickly
+    API: 
     SQL:
 
 Learn how to use MongoDB
