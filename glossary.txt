@@ -25,3 +25,11 @@ Create a portfolio.
     JQuery
     Angular
     Maybe Rust
+
+app.py → Entry point for the application.
+
+models.py → Defines database tables.
+
+routes.py → Handles API requests.
+
+templates/ and static/ → For frontend (optional).
