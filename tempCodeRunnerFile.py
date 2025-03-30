@@ -1,0 +1,1 @@
+db.String(100), nullable=False
