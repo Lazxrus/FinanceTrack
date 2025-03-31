@@ -22,6 +22,10 @@ with app.app_context():
 
 import routes
 
+# Print all registered routes
+print("Registered routes:")
+print(app.url_map)
+
 # Run with debug enabled
 if __name__ == "__main__":
     app.run(debug=True)

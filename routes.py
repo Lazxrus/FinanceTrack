@@ -8,6 +8,9 @@ from app import app
 # API initialize
 api = Api(app) # Attaches Flask-RESTful to app
 
+# Checks to see if routes is working
+print("Routes module is being imported and executed")
+
 # Defines an API resource
 # La clase no cierra preguntar
 class TransactionsAPI(Resource):
