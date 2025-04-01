@@ -3,6 +3,7 @@ Learn Flask, APIs and SQL
     Flask - SQLAlchemy: Object Relational Mapper, aids interaction with an SQL db
     Flask - Migrate: Aids database migration
     Flask - RESTful: Provides tool for building APIs quickly
+    Flask - Blueprint:
     API: 
     SQL:
 
@@ -33,3 +34,10 @@ models.py → Defines database tables.
 routes.py → Handles API requests.
 
 templates/ and static/ → For frontend (optional).
+
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/transactions" -Method GET
+
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/transactions" `
+    -Method POST `
+    -ContentType "application/json" `
+    -Body '{"description": "Coffee", "amount": 5, "category": "Food"}' //This gets changed

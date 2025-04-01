@@ -4,6 +4,7 @@
 # Register other parts of the app
 from flask import Flask
 from models import db
+from routes import transactions_bp
 
 # Creates flask
 app = Flask(__name__)
@@ -20,7 +21,7 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 
-import routes
+app.register_blueprint(transactions_bp)
 
 # Print all registered routes
 print("Registered routes:")
