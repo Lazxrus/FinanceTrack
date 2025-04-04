@@ -1,6 +1,6 @@
 from flask import Flask
 from models import db
-from route_test import transactions_bp  # Import the Blueprint
+from route_test_old import transactions_bp  # Import the Blueprint
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"

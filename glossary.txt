@@ -3,9 +3,12 @@ Learn Flask, APIs and SQL
     Flask - SQLAlchemy: Object Relational Mapper, aids interaction with an SQL db
     Flask - Migrate: Aids database migration
     Flask - RESTful: Provides tool for building APIs quickly
-    Flask - Blueprint:
+    Flask - Blueprint: Lets you split code into modules to avoid circular imports
     API: 
     SQL:
+
+Filtering, so we only get certain categories
+Sorting, so it shows transaction by certain parameters(amount, dates)
 
 Learn how to use MongoDB
 
@@ -19,13 +22,11 @@ Improve GitHub page with a better ReadME.
 
 Create a portfolio.
     HTML
-    CSS/Bootstrap
-    JavaScript
+    CSS/Bootstrap: Starting frontend
+    JavaScript: main.js runs in browser so we use relative paths instead of URLs
     Python
     SQL
     JQuery
-    Angular
-    Maybe Rust
 
 app.py → Entry point for the application.
 
@@ -36,6 +37,7 @@ routes.py → Handles API requests.
 templates/ and static/ → For frontend (optional).
 
 Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/transactions" -Method GET
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/transactions?category=Food" -Method GET
 
 Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/transactions" `
     -Method POST `
