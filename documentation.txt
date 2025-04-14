@@ -20,14 +20,6 @@ Improve GitHub page with a better ReadME.
     Add images
     Add a portfolio project
 
-Create a portfolio.
-    HTML
-    CSS/Bootstrap: Starting frontend
-    JavaScript: main.js runs in browser so we use relative paths instead of URLs
-    Python
-    SQL
-    JQuery
-
 app.py → Entry point for the application.
 
 models.py → Defines database tables.
