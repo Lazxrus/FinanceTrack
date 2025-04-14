@@ -1,6 +1,6 @@
 # routes.py functions to fetch all transactions (GET /api/transactions)
 # adds new transactions (POST /apt/transactions)
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, send_from_directory
 from flask_restful import Resource, Api
 from models import db, Transaction
 
@@ -46,3 +46,8 @@ class TransactionsAPI(Resource):
     
 # API endpoint registration
 api.add_resource(TransactionsAPI, "/api/transactions")
+
+@transactions_bp.route("/")
+def server_index():
+    """Flask routes to serve the index.html file when user visits /"""
+    return send_from_directory("static", "index.html")
