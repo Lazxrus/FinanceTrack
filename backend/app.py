@@ -3,8 +3,8 @@
 # Configure the database
 # Register other parts of the app
 from flask import Flask
-from models import db
-from routes import transactions_bp
+from backend.models import db
+from backend.routes import transactions_bp
 
 # Creates flask
 app = Flask(__name__)

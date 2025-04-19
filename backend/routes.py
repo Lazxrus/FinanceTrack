@@ -2,7 +2,7 @@
 # adds new transactions (POST /apt/transactions)
 from flask import Blueprint, request, jsonify, send_from_directory
 from flask_restful import Resource, Api
-from models import db, Transaction
+from backend.models import db, Transaction
 
 # Creates a blueprint which is easier to maintain and call
 transactions_bp = Blueprint('transactions', __name__)
